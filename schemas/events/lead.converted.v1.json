@@ -1,0 +1,11 @@
+{
+  "eventType": "lead.converted",
+  "version": 1,
+  "required": ["leadId", "clientId", "correlationId"],
+  "properties": {
+    "leadId": { "type": "string" },
+    "clientId": { "type": "string" },
+    "correlationId": { "type": "string" }
+  },
+  "additionalProperties": true
+}

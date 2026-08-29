@@ -1,0 +1,11 @@
+{
+  "eventType": "agent.action_approved",
+  "version": 1,
+  "required": ["agentActionId", "correlationId"],
+  "properties": {
+    "agentActionId": { "type": "string" },
+    "correlationId": { "type": "string" },
+    "approvedBy": { "type": "string" }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,11 @@
+{
+  "eventType": "client.created",
+  "version": 1,
+  "required": ["clientId", "leadId", "correlationId"],
+  "properties": {
+    "clientId": { "type": "string" },
+    "leadId": { "type": "string" },
+    "correlationId": { "type": "string" }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,9 @@
+ml/
+scripts/
+worker.js
+test.js
+uploads/
+*.md
+.env
+.env.*
+public/images/

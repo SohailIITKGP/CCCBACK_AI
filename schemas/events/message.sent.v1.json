@@ -1,0 +1,12 @@
+{
+  "eventType": "message.sent",
+  "version": 1,
+  "required": ["correlationId", "agentActionId"],
+  "properties": {
+    "correlationId": { "type": "string" },
+    "agentActionId": { "type": "string" },
+    "toEmail": { "type": "string" },
+    "templateId": { "type": "string" }
+  },
+  "additionalProperties": true
+}

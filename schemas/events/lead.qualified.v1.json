@@ -1,0 +1,13 @@
+{
+  "eventType": "lead.qualified",
+  "version": 1,
+  "required": ["leadId", "correlationId", "priority"],
+  "properties": {
+    "leadId": { "type": "string" },
+    "correlationId": { "type": "string" },
+    "priority": { "type": "string" },
+    "score": { "type": "number" },
+    "reasoning": { "type": "string" }
+  },
+  "additionalProperties": true
+}

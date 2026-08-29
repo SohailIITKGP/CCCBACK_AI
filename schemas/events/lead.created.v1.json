@@ -1,0 +1,13 @@
+{
+  "eventType": "lead.created",
+  "version": 1,
+  "required": ["leadId", "source", "correlationId"],
+  "properties": {
+    "leadId": { "type": "string" },
+    "source": { "type": "string" },
+    "correlationId": { "type": "string" },
+    "name": { "type": "string" },
+    "priority": { "type": "string" }
+  },
+  "additionalProperties": true
+}

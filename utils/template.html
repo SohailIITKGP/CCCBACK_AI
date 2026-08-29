@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRM Proposal</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 30px; }
+        .page { page-break-after: always; text-align: center; }
+        .header { background: #002147; color: white; padding: 40px; font-size: 28px; }
+        .highlight { color: #FFC107; font-weight: bold; }
+        .section { margin-bottom: 20px; text-align: left; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        table, th, td { border: 1px solid black; padding: 10px; text-align: left; }
+        .image-container img { width: 30%; margin: 10px; }
+        .footer { text-align: center; font-size: 14px; color: gray; margin-top: 40px; }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .grid-item {
+            text-align: center;
+        }
+        .grid-item img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+        }
+        .grid-item p {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Page 1: Cover -->
+    <div class="page">
+        <img src="./REWA lOGO (4).png" alt="Company Logo" style="width: 600px;">
+        <h1  style="font-size: 140px ; margin: 0 ; padding: 0 ;" >Proposal For</h1>
+    </div>
+
+    <!-- Page 2: Surat Overview -->
+    <div class="page">
+        <h1 style="font-size: 140px ; margin: 0 ; padding: 0 ;"  >SURAT</h1>
+        <img src="./image.png" alt="Surat Map" style="width: 40%;">
+        <ul style="font-size: 30px; text-align: left;">
+            <li>SURAT is a city located at western region of India in the state of Gujarat.</li>
+            <li>Surat is the world's fastest growing city from 2019 to 2035 as per the study by Economic Times.</li>
+            <li>Surat ranked second as the cleanest city in India by Swachh Survekshan 2022, and is also known with the names like "THE SILK CITY" and "THE GREEN CITY".</li>
+            <li>Surat is also world famous for his Diamond cutting and polishing, and is known as "Diamond city" of India.</li>
+            <li>Surat won the Netexplo Smart Cities award in 2019 with UNESCO in the resilience category.</li>
+            <li>Surat has an area of 462.149 square kilometre with current metro population of 80,65,000, a 3.61 % increase from 2022.</li>
+            <li>Surat has an average literacy rate of 89%, male literacy 93%, and female literacy 84%.</li>
+        </ul>
+    </div>
+
+    <!-- Page 3: Proposed Location -->
+    <div class="page">
+        <h1 style="font-size: 140px">PROPOSED LOCATION</h1>
+        <div style="height: 600px; width: auto;" class="location">
+            lol
+        </div>
+        
+    </div>
+
+    <!-- Page 4: Property & Client Details -->
+    <div class="page">
+        <h1 style="font-size: 140px" >Property & Client Details</h1>
+        <table>
+            <tr><th>Property Name</th><td>{{propertyName}}</td></tr>
+            <tr><th>Owner</th><td>{{owner}}</td></tr>
+            <tr><th>Contact</th><td>{{contact}}</td></tr>
+            <tr><th>Address</th><td>{{propertyAddress}}</td></tr>
+            <tr><th>Floor</th><td>{{floor}}</td></tr>
+            <tr><th>Area of Property (Sq.ft)</th><td>{{area}}</td></tr>
+            <tr><th>Exact Area (Sq.ft)</th><td>{{exactArea}}</td></tr>
+            <tr><th>Height</th><td>{{height}}</td></tr>
+            <tr><th>Frontage Road</th><td>{{frontage}}</td></tr>
+            <tr><th>Expected Rent</th><td>{{expectedRent}}</td></tr>
+            <tr><th>Rent Type</th><td>{{rentType}}</td></tr>
+        </table>
+        
+    </div>
+
+    <!-- Page 5: Property Images -->
+    <div class="page">
+        <h1 style="font-size: 140px">Property Images</h1>
+        <div class="grid-container">
+            <!-- These will be dynamically replaced with actual property images -->
+        </div>
+    </div>
+
+    <!-- Page 6: About Us -->
+    <div class="page">
+        <h1 style="font-size: 140px">About Us</h1>
+        <img src="./image copy.png" alt="About Us" style="width: 40%;">
+        <!-- <h2 style="font-size: 30px; text-align: left;">ABOUT US</h2> -->
+        <ul style="font-size: 30px; text-align: left;">
+            <li>Armed with Commercial Properties</li>
+            <li>Experience of 18+ years</li>
+            <li>Personalization, Customer Satisfaction &amp; Property Optimization</li>
+            <li>Customer Retention is 90% plus</li>
+            <li>Highly focused and detailed Research team</li>
+            <li>Hassle free services</li>
+            <li>Located in Surat, Gujarat</li>
+        </ul>
+    </div>
+
+    <!-- Page 7: Services -->
+    <div class="page" style="background: url('services-bg.png');;">
+        <h1 style="font-size: 140px">OUR SERVICES</h1>
+        <ul style="text-align: left;">
+            <li>Asset Management</li>
+            <li>Commercial Leasing</li>
+            <li>Occupier Service</li>
+            <li>Renting Offices, Shops & Warehouses</li>
+            <li>Capital Markets</li>
+            <li>Valuation & Advisory</li>
+            <li>Project Management & Building Consultancy</li>
+        </ul>
+    </div>
+
+    <!-- Page 8-11: Clients -->
+    <div class="page">
+        <h1>Our Clients</h1>
+        <img src="./image copy 2.png" style="width: 80%;">
+    </div>
+    <div class="page">
+        <img src="./image copy 2.png" style="width: 80%;">
+    </div>
+    <div class="page">
+        <img src="./image copy 2.png" style="width: 80%;">
+    </div>
+    <div class="page">
+        <img src="./image copy 2.png" style="width: 80%;">
+    </div>
+
+    <!-- Page 12: Contact -->
+    <div class="page">
+        <h1>Thank You</h1>
+        <p>📞 +91 97277 29812</p>
+        <p>📧 mehul.motionworks@gmail.com</p>
+        <p>📍 405, Sangini Aspire, Near RTO, Pal, Surat, Gujarat</p>
+    </div>
+</body>
+</html>

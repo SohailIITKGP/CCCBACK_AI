@@ -1,0 +1,12 @@
+{
+  "eventType": "agent.action_proposed",
+  "version": 1,
+  "required": ["agentActionId", "correlationId", "intent"],
+  "properties": {
+    "agentActionId": { "type": "string" },
+    "correlationId": { "type": "string" },
+    "intent": { "type": "string" },
+    "agentName": { "type": "string" }
+  },
+  "additionalProperties": true
+}

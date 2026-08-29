@@ -1,0 +1,13 @@
+{
+  "eventType": "message.drafted",
+  "version": 1,
+  "required": ["leadId", "correlationId", "agentActionId"],
+  "properties": {
+    "leadId": { "type": "string" },
+    "correlationId": { "type": "string" },
+    "agentActionId": { "type": "string" },
+    "templateId": { "type": "string" },
+    "toEmail": { "type": "string" }
+  },
+  "additionalProperties": true
+}

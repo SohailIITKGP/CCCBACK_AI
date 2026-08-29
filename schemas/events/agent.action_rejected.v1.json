@@ -1,0 +1,11 @@
+{
+  "eventType": "agent.action_rejected",
+  "version": 1,
+  "required": ["agentActionId", "correlationId"],
+  "properties": {
+    "agentActionId": { "type": "string" },
+    "correlationId": { "type": "string" },
+    "reason": { "type": "string" }
+  },
+  "additionalProperties": true
+}
